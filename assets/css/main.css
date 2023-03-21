@@ -3229,3 +3229,42 @@ input, select, textarea {
 	  li {
 		text-align: justify;
 	  }
+
+	  
+	  .video-placeholder-container {
+		display: flex;
+		justify-content: center; /* center the boxes horizontally */
+		align-items: center;
+		margin: 1rem 0;
+	  }
+	  
+	  .video-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+		border: 4px solid #ccc;
+		padding: 1rem;
+		cursor: pointer;
+		transition: all 0.3s ease-in-out;
+		margin: 2rem; /* add space around the boxes */
+	  }
+	  
+	  .video-wrapper:hover {
+		transform: scale(1.1);
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	  }
+/* 	  
+	  .video-info {
+		text-align: center;
+		margin-top: 1rem;
+	  }
+	  
+	  .video-info h2 {
+		font-size: 1.5rem;
+		margin-bottom: 0.5rem;
+	  }
+	  
+	  .video-info p {
+		font-size: 1.2rem;
+	  } */
