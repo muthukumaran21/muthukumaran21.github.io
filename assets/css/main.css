@@ -3231,7 +3231,7 @@ input, select, textarea {
 	  }
 
 	  
-	  .video-placeholder-container {
+	  .video-placeholder {
 		display: flex;
 		justify-content: center; /* center the boxes horizontally */
 		align-items: center;
